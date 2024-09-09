@@ -1,5 +1,7 @@
 Email Classification and Order Processing Project:
-Description
+
+Description:
+
 This project is designed to automate the classification of emails, handle order requests, update product stock, and generate appropriate email responses for customer inquiries and orders. Utilizing OpenAI’s GPT-3 for natural language processing (NLP), the project automates the email classification process, identifies order requests, and processes product inquiries. This streamlines business processes and improves customer communication.
 
 Project Features:
@@ -21,6 +23,7 @@ process_orders.py: Processes order requests and checks stock availability.
 update_stock.py: Updates product stock based on order requests.
 generate_responses.py: Generates appropriate email responses for orders and inquiries.
 data/: Contains input and output Excel files.
+
 Dependencies:
 openai
 pandas
